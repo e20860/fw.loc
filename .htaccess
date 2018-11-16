@@ -1,0 +1,4 @@
+#DirectoryIndex public/index.php
+RewriteEngine On
+#RewriteBase /
+RewriteRule ^(.*)$ /home/eugenie/www/php.st/fw.loc/public/index.php?$1

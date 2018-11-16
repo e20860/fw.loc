@@ -1,0 +1,10 @@
+[2018-11-14 06:20:23] Текст ошибки: set_exception_handler() expects exactly 1 parameter, 2 given | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/ErrorHandler.php | Строка: 21
+------------------------------
+[2018-11-14 06:44:37] Текст ошибки: Uncaught TypeError: Argument 1 passed to vendor\core\ErrorHandler::exceptionHandler() must be an instance of vendor\core\Exception, instance of Exception given in /home/eugenie/www/php.st/fw.loc/vendor/core/ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: vendor\core\ErrorHandler->exceptionHandler(Object(Exception))
+#1 {main}
+  thrown | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/ErrorHandler.php | Строка: 62
+------------------------------
+[2018-11-14 06:49:36] Текст ошибки: Страница не найдена | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 106
+------------------------------
