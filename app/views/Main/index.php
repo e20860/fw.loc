@@ -1,6 +1,11 @@
 <div class="container">
     <br>
     <button class="btn btn-primary" id="send">Кнопка</button>
+    <?php new vendor\widgets\menu\Menu([
+        'container' => 'ul',
+        'table' => 'categories',
+        'cache' => 60,
+    ])?>
     <?php if(!empty($posts)): ?>
     <?php foreach ($posts as $post) : ?>
         <div class="card" >

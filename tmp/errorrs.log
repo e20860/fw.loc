@@ -8,3 +8,39 @@ Stack trace:
 ------------------------------
 [2018-11-14 06:49:36] Текст ошибки: Страница не найдена | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 106
 ------------------------------
+[2018-11-21 04:30:12] Текст ошибки: syntax error, unexpected ';', expecting ',' or ')' | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 78
+------------------------------
+[2018-11-21 04:30:53] Текст ошибки: Контроллер <b>app\controllers\UserController</b> не найден | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 111
+------------------------------
+[2018-11-21 04:31:14] Текст ошибки: Контроллер <b>app\controllers\UserController</b> не найден | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 111
+------------------------------
+[2018-11-21 04:32:09] Текст ошибки: Контроллер <b>app\controllers\UserController</b> не найден | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 111
+------------------------------
+[2018-11-21 04:35:47] Текст ошибки: Контроллер <b>app\controllers\admin/UserController</b> не найден | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 109
+------------------------------
+[2018-11-21 04:37:07] Текст ошибки: Контроллер <b>app\controllers\admin/UserController</b> не найден | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 109
+------------------------------
+[2018-11-21 04:38:50] Текст ошибки: Контроллер <b>app\controllers\admin\UserController</b> не найден | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 109
+------------------------------
+[2018-11-21 05:12:10] Текст ошибки: Undefined variable: menu | Файл: /home/eugenie/www/php.st/fw.loc/app/views/layouts/admin.php | Строка: 15
+------------------------------
+[2018-11-21 05:14:32] Текст ошибки: Undefined variable: menu | Файл: /home/eugenie/www/php.st/fw.loc/app/views/layouts/admin.php | Строка: 15
+------------------------------
+[2018-11-21 05:29:08] Текст ошибки: Class 'vendor\core\base\Exception' not found | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/base/View.php | Строка: 72
+------------------------------
+[2018-11-21 05:30:56] Текст ошибки: <p>Не найден вид <b>/home/eugenie/www/php.st/fw.loc/app/views/admin\User/index.php</b></p> | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/base/View.php | Строка: 72
+------------------------------
+[2018-11-21 05:38:57] Текст ошибки: <p>Не найден вид <b>/home/eugenie/www/php.st/fw.loc/app/views/admin\User/index.php</b></p> | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/base/View.php | Строка: 72
+------------------------------
+[2018-11-21 05:40:52] Текст ошибки: Контроллер <b>app\controllers\admin/UserController</b> не найден | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 109
+------------------------------
+[2018-11-21 05:41:58] Текст ошибки: Контроллер <b>app/controllers/admin/UserController</b> не найден | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 109
+------------------------------
+[2018-11-21 05:44:58] Текст ошибки: Контроллер <b>/app/controllers/admin/UserController</b> не найден | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/Router.php | Строка: 109
+------------------------------
+[2018-11-21 05:49:07] Текст ошибки: <p>Не найден вид <b>/home/eugenie/www/php.st/fw.loc/app/views/admin\User/index.php</b></p> | Файл: /home/eugenie/www/php.st/fw.loc/vendor/core/base/View.php | Строка: 72
+------------------------------
+[2018-11-21 06:12:22] Текст ошибки: Undefined variable: data | Файл: /home/eugenie/www/php.st/fw.loc/app/views/admin/User/index.php | Строка: 4
+------------------------------
+[2018-11-21 06:13:38] Текст ошибки: Undefined variable: data | Файл: /home/eugenie/www/php.st/fw.loc/app/views/admin/User/index.php | Строка: 4
+------------------------------

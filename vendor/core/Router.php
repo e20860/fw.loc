@@ -65,6 +65,14 @@ class Router {
                 if(!isset($route['action'])) {
                     $route['action'] = 'index';
                 }
+                
+                // perfixes for admin
+                if(!isset($route['prefix'])) {
+                    $route['prefix'] = '';
+                } else {
+                    $route['prefix'] .= '\\';
+                }
+                
                 $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
                 return TRUE;
@@ -72,7 +80,7 @@ class Router {
         }
         return FALSE;
     }
-    
+///home/eugenie/www/php.st/fw.loc/app/controllers/admin/UserController.php    
     /**
      * Перенаправляет URL по корректному маршруту
      * @param string $url входящий URL
@@ -81,7 +89,7 @@ class Router {
     public static function dispatch($url) {
         $url = self::removeQueryString($url);
         if(self::matchRoute($url)) {
-            $controller = 'app\controllers\\' . self::$route['controller'] .'Controller';
+            $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] .'Controller';
             if(class_exists($controller)) {
                 // Если класс найден - создаётся объект контроллер
                 $cObj = new $controller(self::$route);

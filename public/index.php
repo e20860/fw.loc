@@ -37,6 +37,12 @@ Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller'=> 'Pa
 Router::add('^page/(?P<alias>[a-z-]+)$', ['controller' => 'Page', 'action' => 'view']);
 
 //маршруты по умолчанию
+// Административный №1 - по умолчанию. В командной строке укзано только admin
+Router::add('^admin$',['controller' => 'User', 'action' => 'index', 'prefix'=>'admin']);
+
+// Административный - гибкий с выходом на контроллер/action
+Router::add('^admin/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix' => 'admin']);
+
 // Если пустой URL - перенаправляется на главную страницу
 Router::add('^$',['controller' => 'Main', 'action' => 'index']);
 
