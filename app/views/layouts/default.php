@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <?php vendor\core\base\View::getMeta()?>
+    <?php vendor\fw\core\base\View::getMeta()?>
     <link rel="stylesheet" href="/fw.loc/public/bootstrap/css/bootstrap.min.css">
     
   </head>
@@ -13,9 +13,15 @@
     <h1>O HMDoll</h1>
     <nav class="nav nav-pills nav-fill">
       <?php foreach ($menu as $item): ?>  
-      <a class="nav-item nav-link <?php if ($item['id'] == 1) echo 'active' ?>" href="<?php echo $item['id']; ?>"><?php echo $item['title']; ?></a>
+      <a class="nav-item nav-link" href="<?php echo $item['link']; ?>"><?php echo $item['title']; ?></a>
       <?php endforeach; ?>
-    </nav>    
+    </nav>  
+    <!--Ошибка, если есть -->
+    <?php if(isset($_SESSION['error'])): ?>
+        <div class="alert alert-danger">
+            <?=$_SESSION['error']; unset($_SESSION['error']) ?>
+        </div>
+    <?php endif; ?>
     <?=$content?>
     </div>  
       <script src="/fw.loc/public/js/jquery_3_2_1.js"></script>

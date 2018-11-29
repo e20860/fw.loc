@@ -3,7 +3,7 @@
 namespace app\controllers;
 
 use app\models\Main;
-use vendor\core\App;
+use vendor\fw\core\App;
 
 /*
  * Лицензионный заголовок.
@@ -32,7 +32,7 @@ class MainController extends AppController {
         $title = 'PAGE TITLE';
         //$this->setMeta('Главная страница', 'Описане страницы', 'Ключевые слова');
         //$meta = $this->meta;
-        \vendor\core\base\View::setMeta('Главная страница', 'Описане страницы', 'Ключевые слова');
+        \vendor\fw\core\base\View::setMeta('Главная страница', 'Описане страницы', 'Ключевые слова');
         $this->set(compact('title','posts','menu', 'meta'));
         //$this->layout = 'main';
         //$this->view ='test';

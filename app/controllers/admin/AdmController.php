@@ -2,7 +2,7 @@
 
 namespace app\controllers\admin;
 
-use vendor\core\base\Controller;
+use vendor\fw\core\base\Controller;
 /**
  * Description of AdmController
  *

@@ -13,7 +13,7 @@ namespace app\models;
  *
  * @author eugenie
  */
-class Main extends \vendor\core\base\Model{
+class Main extends \vendor\fw\core\base\Model{
     public $table = 'articles';
     // При необходимости осуществлять запросы по полю, 
     // которое называется не id объфвить здесь переменную

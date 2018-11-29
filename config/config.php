@@ -8,7 +8,7 @@
 
 $config = [
   'components' => [
-      'cache' => 'vendor\libs\Cache',
+      'cache' => 'vendor\fw\libs\Cache',
   ],
     
 ];

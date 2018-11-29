@@ -13,7 +13,7 @@ namespace app\controllers;
  *
  * @author eugenie
  */
-class AppController extends \vendor\core\base\Controller {
+class AppController extends \vendor\fw\core\base\Controller {
     public $meta = [];
     //put your code here
     protected function setMeta($title = '', $desc = '', $keywords = '')
