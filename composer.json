@@ -1,0 +1,22 @@
+{
+    "name": "vendor/fw",
+    "description": "Базовый компонент",
+    "type": "project",
+     "license": "Open",
+    "authors": [
+        {
+            "name": "Eugenie",
+            "email": "e20860@mail.ru"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.24",
+        "vlucas/valitron": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "fw\\": "vendor/fw",
+            "app\\":"app"
+        }
+    }
+}
